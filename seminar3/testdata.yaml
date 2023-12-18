@@ -1,0 +1,5 @@
+address: https://test-stand.gb.ru/login
+browser: chrome
+sleep_time: 5
+login: 'Monica Kunde V'
+password: 'add9b80be1'

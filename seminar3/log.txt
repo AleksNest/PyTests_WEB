@@ -1,0 +1,33 @@
+2023-12-18 12:17:30 INFO ====== WebDriver manager ======
+2023-12-18 12:17:31 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 12:17:31 INFO Get LATEST chromedriver version for google-chrome
+2023-12-18 12:17:31 INFO Driver [C:\Users\Алексей\.wdm\drivers\chromedriver\win64\120.0.6099.71\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-18 12:17:32 INFO Test1 start
+2023-12-18 12:17:33 INFO send test of element //*[@id='login']/div[1]/label/input
+2023-12-18 12:17:33 INFO send test of element //*[@id='login']/div[2]/label/input
+2023-12-18 12:17:33 INFO click login button
+2023-12-18 12:17:34 INFO we find text 401 in error field //*[@id='app']/main/div/div/div[2]/h2
+2023-12-18 12:17:34 INFO Test2 start
+2023-12-18 12:17:34 INFO send Monica Kunde V of element //*[@id='login']/div[1]/label/input
+2023-12-18 12:17:34 INFO send add9b80be1 of element //*[@id='login']/div[2]/label/input
+2023-12-18 12:17:34 INFO click login button
+2023-12-18 12:17:35 INFO we find text Hello, Monica Kunde V in error field //*[@id='app']/main/nav/ul/li[3]/a
+2023-12-18 12:17:35 INFO Test3 start
+2023-12-18 12:17:35 INFO send Monica Kunde V of element //*[@id='login']/div[1]/label/input
+2023-12-18 12:17:35 INFO send add9b80be1 of element //*[@id='login']/div[2]/label/input
+2023-12-18 12:17:35 INFO click login button
+2023-12-18 12:17:36 INFO click add postbutton
+2023-12-18 12:17:37 INFO send Заголовок новый of element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-12-18 12:17:37 INFO send Описание новое of element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-12-18 12:17:37 INFO send контент новый of element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-12-18 12:17:37 INFO click add savebutton
+2023-12-18 12:17:42 INFO we find text Заголовок новый in error field ('xpath', '//*[@id="app"]/main/div/div[1]/h1')
+2023-12-18 12:17:42 INFO Test4 start
+2023-12-18 12:17:42 INFO send Monica Kunde V of element //*[@id='login']/div[1]/label/input
+2023-12-18 12:17:42 INFO send add9b80be1 of element //*[@id='login']/div[2]/label/input
+2023-12-18 12:17:42 INFO click login button
+2023-12-18 12:17:44 INFO click contuct button
+2023-12-18 12:17:46 INFO send Алексей of element //*[@id="contact"]/div[1]/label/input
+2023-12-18 12:17:46 INFO send al_nest@inbox.ru of element //*[@id="contact"]/div[2]/label/input
+2023-12-18 12:17:46 INFO send контент of element //*[@id="contact"]/div[3]/label/span/textarea
+2023-12-18 12:17:46 INFO click contuct us button
