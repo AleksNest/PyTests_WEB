@@ -45,7 +45,7 @@ def test_step_3(browser):
     time.sleep(5)
     assert testpage.get_title_post() == 'Заголовок новый'
 
-
+# тест на проверку появления alert при валидном заполнение формы Contact us
 def test_step4(browser):
     logging.info("Test4 start")
     testpage = OperationsHelper(browser)
