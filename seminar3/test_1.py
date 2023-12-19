@@ -61,8 +61,7 @@ def test_step4(browser):
     testpage.enter_content_contuct_page('контент')
     testpage.click_contuct_us_buttton()
     time.sleep(3)
-    alert = browser.switch_to.alert                 # ловит всплывающее инфо в окне
-    assert alert.text == 'Form successfully submitted'
+    assert  testpage.get_alert_text() == 'Form successfully submitted'
 
 
 
