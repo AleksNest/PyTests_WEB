@@ -125,3 +125,9 @@ class OperationsHelper(BasePage):       # наследуется от класс
         content_contact_field = self.find_element(TestSearchLocators.LOCATOR_CONTENT_CONTACTPAGE)
         content_contact_field.clear()  # стирается поле ввода
         content_contact_field.send_keys(word)  # посылается word в поле
+
+     def get_alert(self):
+        logging.info('Get alert text')
+        text = self.get_alert_text()
+        logging.info(text)
+        return text
